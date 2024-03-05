@@ -1,0 +1,9 @@
+mysql-connector-python
+tkinter
+mysql
+picamera2
+face-recognition
+jinja2
+opencv-python
+dlib
+numpy
