@@ -13,7 +13,7 @@ from tkinter import messagebox
 
 
 
-mydatabase=mysql.connector.connect(host='sql11.freemysqlhosting.net',port=3306,user='sql11684336',passwd='jAd7uNYwyQ',db='sql11684336',charset='utf8',use_unicode=True)
+mydatabase=mysql.connector.connect(host='host',port='port',user='user',passwd='password',db='database',charset='utf8',use_unicode=True)
 def progressBar(count_value, total, suffix=''):
         bar_length = 100
         filled_up_length = int(round(bar_length * count_value / float(total)))
