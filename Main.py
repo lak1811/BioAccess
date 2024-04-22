@@ -795,3 +795,5 @@ picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888',
 
 #GROUND LEVEL LOWER
 facereg_window.mainloop()
+mydatabase.close()
+print ("Databasen er nå stengt")
