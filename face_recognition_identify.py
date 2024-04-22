@@ -70,9 +70,6 @@ if __name__ == "__main__":
     # This block will only run if the script is executed directly, not when it's imported
     show_camera()
 
-""" known_faces_folder = "/home/lak1811/project/env/dataset"
-    known_faces = []
-
     for file_name in os.listdir(known_faces_folder):
         image_path = os.path.join(known_faces_folder, file_name)
         known_face_image = face_recognition.load_image_file(image_path)
